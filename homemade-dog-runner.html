@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Homemade Dog Runner
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Homemade Dog Runner",
+  "datePublished": "2021-03-26",
+  "image": "https://i.pinimg.com/originals/39/71/0f/39710f1123245ddd92fedfe2a4079735.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HealthyBay",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=homemade+dog+runner",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Homemade Dog Runner
+            </a>
+        </h1>
+        <p>
+                            Best Wallpaper Ideas website. Search anything about Wallpaper Ideas in this website.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Homemade Dog Runner</strong>. Thankfully it was cheap and easy to build. Wrench to tighten wire clamp screws.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/17/54/f3/1754f3f0e263c0c8e74008b3cdeb00c6.jpg" alt="How To Construct A Shaded Dog Run Diy Dog Kennel Diy Dog Run Cheap Dog Kennels" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV4uN1tll93KDwz-fCAjSLUUoOJMFOAAJKjmjApuNkdgfBQfmFLKUl__4siookwCk4xD0';">
+        <figcaption>How To Construct A Shaded Dog Run Diy Dog Kennel Diy Dog Run Cheap Dog Kennels from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        Zuki wears a buckle collar 247 with her ID tags and Tagg Pet Tracker on it. Wrench to tighten wire clamp screws. A dog cable runner will give your pet the freedom to run back and forth at a predetermined distance while keeping it away from specific areas in your yard and preventing it from wrapping his leash around trees posts and other objects.
+    </p>
+    <h3>Mar 31 2014 - Some dogs need more than a fence to keep them safe but a stake and tie out wont provide enough space.</h3>
+    <p>2 天前 A dog run doesnt have to be an expensive or difficult project. The martingale only goes on when she is outside supervised on her cable run or. It can become addictive. Homemade dog bed ramp rboardgames.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Better Than A Dog Run Yard Ideas For Your Four Legged Family Member Ramp Up A Wood Deck Backyard Dog Area Dog Yard Diy Dog Kennel" src="https://i.pinimg.com/originals/72/04/c4/7204c43d4092ddd91dec56d2919f9c96.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe7gtQWsUeiNfwkwGjCXc4RMppnuuDzVXgofTu--uoJm2O7-14qRztboh1mLWtNT0btcI';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Its also important you grade the area with a three-percent slope two-foot drop per 100 feet away from your house so water doesnt pool up on the turf.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Don T Keep Your Dog On A Chain The Pet Product Guru Dog Trolley Dog Tie Dog Runs" src="https://i.pinimg.com/originals/ff/a9/73/ffa97309a154583f1ca9459f59dd190c.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzgOuPs3-XDhTn8fdv59dIIcgbGf46ukLNOXx4g0yZP7Mx-tPCiqDSeJ63aIG9eZjn__E';" />
+        <small>Source: co.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Excavate the pad to a depth of up to six inches.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="How To Build A Dog Run With Attached Doghouse Dog House Diy Diy Dog Run Dog Houses" src="https://i.pinimg.com/originals/2e/31/cf/2e31cf9e56222107476489a139db5694.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJSPDZbuakEkhN6XU-SdM8VZV_52ROriheRZLh9y4loPUKRXR7llmYw7Sj7RM4uAEw3m0';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Try varying the size of the stripes for added interest.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="10 Genius Diy Dog Kennel Ideas Craft Directory Diy Dog Kennel Dog Kennel Outdoor Outside Dogs" src="https://i.pinimg.com/originals/87/8c/e1/878ce1f0f041c4eed6ceb3bf036dc010.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHIkQtWpuq33VLZ0KPf8CE3d-7FKqxuVmsuz8A-61i9-s-wmjHMpcMBkHWGnY26KGE114';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Metal and Wood Fencing.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="The L Shaped House Landscaping The Dog Run Backyard Dog Area Dog Spaces Outdoor Dog" src="https://i.pinimg.com/originals/b7/58/92/b758929326e81062ec3e3c73d73e30cd.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKIOPRQCVnOqjt5H7JO46HliTm1YCMuuVjIiefpflLcJTAQoFOY00GtE5x9189hN74t4';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Its also important you grade the area with a three-percent slope two-foot drop per 100 feet away from your house so water doesnt pool up on the turf.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Dog Run Putting Up The Fence Dog Run Fence Diy Dog Run Dog Backyard" src="https://i.pinimg.com/originals/2b/ce/87/2bce8791740ca6cea85cbbcd1dd8bd7c.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM9Aj1ZfeZC_V8jgr6AX1RFtJKa7LO8zEiUG2svKf7kHfk2b2kvGm0GFOSH0l_Y3fbkDU';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>2 天前 A dog run doesnt have to be an expensive or difficult project.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Diy Dog Tie Out For Multiple Dogs A Simple Solution To Keep 1 Or More Dogs In A Yard Without A Fence Dog Tie Dog Trolley Diy Dog Run" src="https://i.pinimg.com/736x/0b/34/69/0b3469dffeddf160a732f70c4c6fc00d.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGs0y5laIWMtrfNlYXlHXQo2rHEGhTqEbFDsPEqFezukhqXZNU4wxJAl3v0F3Owvi5lY';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Excavate the pad to a depth of up to six inches.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Zip Line Your Dog For Safety Dog Zip Line Diy Dog Run Zip Line Backyard" src="https://i.pinimg.com/600x315/9b/fe/c8/9bfec82aeec1a609af9bdc603366aaa6.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMcu0idW29HhQGd4PGjmOhpMqwYKTwUcap-_qTjoffQZwjosaiu3iQpX4lj0xkhf0EW3Y';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Heres my last video of Maya on the homemade carpet the day it was sold.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Make An Arial Dog Run More Enjoyable Backyard Dog Area Diy Dog Yard Dog Line" src="https://i.pinimg.com/originals/e3/17/b8/e317b82bb4e1979eee42ff8d6e48563e.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0t-xEuVdJfSd-KnxaLnfwjylZKKltQmFSw2tGAdYm_ODGHx5vgaIqg6JruNtycnjbXfw';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Swivel Dog Tie Out Stake Dog Anchor Lifetime Replacement - Heavy Dog Yard Stake Rust Proof Cat Anchor Dog Tether Holds 1000Lbs of Pull Force for Yard Camping Outdoor.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/lacrosse-game-day-hairstyles.html"><i>&larr; lacrosse game day hairstyles</i></a>
+                                                                    
+                                        <a href="/kong-dog-crate-set-up.html"><i>kong dog crate set up &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Footer CSS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+	});
+</script>
+<!-- Histats.com  START  (aync) viu.tw-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4373060,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4373060&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->            <script type="text/javascript">
+        window.onload = function() {
+            var v_images = document.getElementsByClassName('ads-img');
+            for(var i = 0; i < v_images.length; i++) {
+                var v_img = v_images[i];
+                v_img.onclick = function() {
+                    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+                }
+            }
+        }
+    </script>
+        <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>

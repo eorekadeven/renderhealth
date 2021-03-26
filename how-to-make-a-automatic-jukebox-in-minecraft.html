@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        How To Make A Automatic Jukebox In Minecraft
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "How To Make A Automatic Jukebox In Minecraft",
+  "datePublished": "2021-03-26",
+  "image": "https://i.pinimg.com/originals/f5/1f/3c/f51f3c7fc0158800e5d00317227c2ac2.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HealthyBay",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=how+to+make+a+automatic+jukebox+in+minecraft",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            How To Make A Automatic Jukebox In Minecraft
+            </a>
+        </h1>
+        <p>
+                            Best Wallpaper Ideas website. Search anything about Wallpaper Ideas in this website.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>How To Make A Automatic Jukebox In Minecraft</strong>. Replace the grass blocks with quartz blocks on the borders of the pool. When crafting with wood planks you can use any kind of.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/f5/1f/3c/f51f3c7fc0158800e5d00317227c2ac2.jpg" alt="Minecraft Automatic Smelter Industrial Redstone Tutorial Mcpe Minecraft Bedrock Minecraft Buildings" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0efQUszenovv59AzZBnp4NPns7x9dlMEf0CNsUhDbvALexj-Xh1iydwZvIo_LRqIi-Uw';">
+        <figcaption>Minecraft Automatic Smelter Industrial Redstone Tutorial Mcpe Minecraft Bedrock Minecraft Buildings from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        Functional Four Song Jukebox Redstone Discussion And Mechanisms Minecraft Java Edition Minecraft Forum Minecraft Forum. Add a lever on the ground and connect it with the redstone repeaters in the pool with the help of redstone dust. Place smooth quartz blocks on all the pistons.
+    </p>
+    <h3>Place your music discs in the top chest turn off locked hopper it will play all the loaded discs.</h3>
+    <p>342012 Survival ready tunes for days. Also Jukeboxes should work with dispensers and hoppers to allow changing out discs automatically but that is already proposed in another suggestion. 2 Place eight wooden planks all around and one diamond in the center. Dropper circuit after bottom hopper sends played discs up water bubble column to original chest.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Automatic Juke Box Station Minecraft Bedrock Edition Mcpe Https Youtu Be 6mrr4gy Er0 Minecr Minecraft Tutorial Minecraft Music Station" src="https://i.pinimg.com/originals/09/a8/ae/09a8ae8278483c6e006d04d82fc7c948.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9KAwqxNWJXrm9MNcYWMYAeU4n_SSNpoe0dgQ36iQZrZJYRBFh5_WAMOGDETLKIv_lj7Y';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Replace the grass blocks with quartz blocks on the borders of the pool.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Minecraft Tutorials E52 Jukebox And Music Discs Survive And Thrive Ii Minecraft Tutorial Minecraft Tutorial" src="https://i.pinimg.com/564x/8e/90/4c/8e904c28b0f7321e702333039fa44763--minecraft-survival-minecraft-videos.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQON8wW8zoFp7U5ivmIzmrMlQ-kCm6KsSvubncgU7_aFEuaqD5co9IOHVNsQmQSMJ3VuM';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>When crafting with wood planks you can use any kind of.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Minecraft Tutorial How To Make A Music Store 2019 City Tutorial Youtube Minecraft Tutorial Minecraft Music Store" src="https://i.pinimg.com/originals/0b/8a/e6/0b8ae602e824c928c46c0ddf6ff26cb2.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREQQIMV-Trtg7kIWiLmYR24A9cj7Cx8I44MVILuphvpd0oRA2OLsu1yswp88NNLR2VfJY';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Fill the empty row of the pool with smooth quartz blocks.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="A Simple Jukebox Design I Made Detailcraft In 2020 Design Minecraft Architecture Simple" src="https://i.pinimg.com/736x/d9/db/ca/d9dbca438d1a3063704708b64047755c.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsc2bYQo9WEtLdHvsnkE7hvRRPKedzNtPVTAbPA0yrZLYQsqIjds8ZlxJ2tGMYMjMTUeA';" />
+        <small>Source: ar.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>2 Place eight wooden planks all around and one diamond in the center.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Semi Automatic Music Room Tutorial Minecraft Bedrock Edition Mcpe Music Room Minecraft Music Bedrock" src="https://i.pinimg.com/originals/ac/09/ea/ac09ea825f2d1cfe3c9319c746ed13a2.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSApfxnG4rJsuOWJOqQwa_2VoTnuhqAZQ2vrn4OZmHVqoiZqUYezWsdSn5IYMLBfhNobSc';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>To make a jukebox place 8 wood planks and 1 diamond in the 3x3 crafting grid.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Macroscopic Clock Bedrock Edition Bedrock Clock Minecraft Videos" src="https://i.pinimg.com/originals/e6/ab/16/e6ab16cc0963d7e5e3154fcfd5b40509.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYjl6pdzMi616iNM2MFqWzwCstTVg_SMAE5tr1B26MH1BmO0lF9L50Injm0_Auln0vHrI';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>To make a jukebox place 8 wood planks and 1 diamond in the 3x3 crafting grid.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="How To Change Minecraft Background Music Minecraft 1 15 Change Background Change Background" src="https://i.pinimg.com/originals/84/16/bc/8416bc2993039a29fd14390561617096.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsAjT3r86zOoWCBP8azaGNCCsdRyJkLp8Bs6UvPqquPKW5bcjuAfDI2nH7lSe6laOsxxQ';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Automation can be easily achieved with many different Redstone items such as pistons and repeaters but another item.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Minecraft Automatic Smelter Industrial Redstone Tutorial Mcpe Minecraft Bedrock Minecraft Buildings" src="https://i.pinimg.com/originals/f5/1f/3c/f51f3c7fc0158800e5d00317227c2ac2.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0efQUszenovv59AzZBnp4NPns7x9dlMEf0CNsUhDbvALexj-Xh1iydwZvIo_LRqIi-Uw';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>A redstone signal can be used to control playback.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Minecraft Redstone Clips On Instagram Here Comes Another Secret System This Time Using A Jukebox Is It Useful Minecraft Redstone Jukebox Minecraft Secrets" src="https://i.pinimg.com/originals/24/90/32/24903264345a91052becef5babaf4455.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBiyWEu9LfXPB4rPzm3xVmOuLn29vODRMQvcJLHoBsUocFsXAH_i0NTeB2x2cFxHd-GyY';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Because the hoppers are re-enabled when the song ends a system of hoppers can be used to automatically eject and reinsert the disc when it is finished playing causing it to loop.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/what-household-plants-are-poisonous-to-cats.html"><i>&larr; what household plants are poisonous to cats</i></a>
+                                                                    
+                                        <a href="/what-happens-when-your-dog-bites-someone-arizona.html"><i>what happens when your dog bites someone arizona &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Footer CSS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+	});
+</script>
+<!-- Histats.com  START  (aync) viu.tw-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4373060,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4373060&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->            <script type="text/javascript">
+        window.onload = function() {
+            var v_images = document.getElementsByClassName('ads-img');
+            for(var i = 0; i < v_images.length; i++) {
+                var v_img = v_images[i];
+                v_img.onclick = function() {
+                    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+                }
+            }
+        }
+    </script>
+        <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>

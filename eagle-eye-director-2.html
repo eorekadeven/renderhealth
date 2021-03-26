@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Eagle Eye Director 2
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Eagle Eye Director 2",
+  "datePublished": "2021-03-26",
+  "image": "https://i.pinimg.com/736x/3c/a6/e4/3ca6e47015e88a0558880d37ddc76b8d.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HealthyBay",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=eagle+eye+director+2",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Eagle Eye Director 2
+            </a>
+        </h1>
+        <p>
+                            Best Wallpaper Ideas website. Search anything about Wallpaper Ideas in this website.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Eagle Eye Director 2</strong>. Compatible with Polycom Group Series systems running Group Series 61 software the EagleEye Director II can track conference participants up to 328 feet away from the EagleEye IV 12x cameras. EagleEye Director II camera is a dynamic locating technology that identifies participants within the viewing range of the system.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/d5/ae/1d/d5ae1d4dd81962c8bde14e7cb52119b6.png" alt="Eagle Eye Logo Design Logo Design Diy Logo Design Logo Design Inspiration" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5zEJJ6F45SKJl_7TvgCOsSsskDwe_umA2ZRatp8oSJCngvXwSzYKzRxmXCGcvUhSvSyU';">
+        <figcaption>Eagle Eye Logo Design Logo Design Diy Logo Design Logo Design Inspiration from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        EagleEye Director II Dimensional Drawings. EagleEye Director II camera automatically zooms in on an active speaker without the use of a remote control or camera presets. The camera is a dual-camera solution that uses EagleEye.
+    </p>
+    <h3>Poly - formerly Plantronics and Polycom Created Date 132020 30259 PM.</h3>
+    <p>Die Kamera Polycom. I can find and have copies of the original EE Director but cannot find anything for the Director II. EagleEye Director II camera automatically zooms in on an active speaker without the use of a remote control or camera presets. The EagleEye Director II camera acts as a director.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Ghim Tren Conference Devices" src="https://i.pinimg.com/736x/2e/f1/f6/2ef1f682402373a12ba65c98e42cf114.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXkRMJ_1bzo_45xYBjvij0-P6solPYcu-PZwLlu8S6yVkxso2JAhnORJUGj738DV6M_ng';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>I can find and have copies of the original EE Director but cannot find anything for the Director II.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Artemis Fowl Movie Behind The Scenes Filming Artemis Fowl Artemis Fowl" src="https://i.pinimg.com/originals/bb/e2/99/bbe299154a8459172ef4a7994d1b7cce.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6YPUSNmUXKVYMaEFmSYZudnQAhnzE5BKeXByoyGKqI_ANOjqdZOEp9DESF9Gaa1wcljM';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Polycom EagleEye Director II Setup Sheet Author Plantronics Inc.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Eagle In Black And White Color Eagle Vector Stock Illustration Free Vector Art" src="https://i.pinimg.com/originals/38/48/38/3848381fe2b4690fe848f33b4a0d8767.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6u5flWLrQl7agtdsOUQPPoHZOnKU6af5MBpYglXMQqSuI6qQ-bU68TjwpREU-JfWpr3s';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Polycom EagleEye Director II is the simplest way to automate video conferencing camera control to enhance communications and make meetings intimate and inclusive.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Eagle Eye 2008 In 214434 S Movie Collection Clz Cloud For Movies Eagle Eye Eye Movie Michelle Monaghan" src="https://i.pinimg.com/originals/2e/d4/51/2ed4510cac721c348d9529876c72d362.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJxbjH6oV5n0CMc4iMGqaxXdhqrLgIZ_Thi_U85SCtSMC7v8ICmDdkKrrolE-C1kbdFR8';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>2017-10-19 2017-10-19 benny EagleEye Director II Ingram Micro Polycom 攝影機系統 honestbee 與樂餉社攜手 設首間網上慈善食物商店 NETSCOUT發佈AIRCHECK G2 v2版本 高速驗.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin On H323hd Inc" src="https://i.pinimg.com/originals/f6/91/0a/f6910ac0baeec25ebcd10e255d64a40a.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCsA-ADjPElL604CKmMsGcBL5EFAB7_kffWIkbYFwH_qOVeN4052Pi1RhfVxG80Yfl5E8';" />
+        <small>Source: ar.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>When EagleEye Director II camera is in tracking mode or the Analytics camera is adjusted in tilt position then the Analytics camera in the middle of EagleEye Director II camera will capture group view video only.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cheap Holder For Buy Quality Holder For Tablet Directly From China Holder Bracket Suppliers Tablet Bracket For Dji Mavic Pro Ai Dji Mavic Pro Mavic Pro Mavic" src="https://i.pinimg.com/originals/92/09/74/9209743372608c97bd19fb94d313214b.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKwG3H-KCJFhfg5INREL_mjOa8rnQIOZ0eyyM3a0HP9xcWQXgihvc-CrSj2SgzWIeEoM';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>The camera is a dual-camera solution that uses EagleEye.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Eagle Eye 2008 Bluray 950mb Hindi Dual Audio 720p Esub Eagle Eye Blu Ray Hd Movies" src="https://i.pinimg.com/564x/17/de/37/17de377b5cd0d92963b3aac3f6e2ecae.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ-qZ_d4Us9iQz6d_blAGe7K9h4JCHuhH0RP7DOeQWFO9CpDjZ0qTlrAdP_jIkXSwfuB0';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>EagleEye Director II software builds are bundled with the RealPresence Group Series software version.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Francois Baptista X Stephane Pietroiusti S Eagle Eye Drone Inventos" src="https://i.pinimg.com/originals/50/96/96/509696f131b920884d2834b65861368b.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR02Vh8PLn22TouNTMyj0WemGc_ckX1wV08jmW-VHMX1ELZQqq_UzCs_n30itKPDJSRQ5U';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Tech break session 15 shows you a technical overview of the Eagle Eye Director 2 and how to optimal use in any meeting room Teams Zoom etc.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Polycom Eagleeye Director Ii Thao Minh Tech Usb Cong Nghệ" src="https://i.pinimg.com/originals/c4/55/4b/c4554b800fe8ec3d99d5944213dc4fc0.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyIfGPsIMiPx2AG3lzJqchq7qiKajrlpLv6PXcE_bNANdAyemXeMP-f8tpBxhqXwXANzk';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>La technologie de suivi des personnes et au zoom automatique.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/how-to-make-puppy-crate-cozy.html"><i>&larr; how to make puppy crate cozy</i></a>
+                                                                    
+                                        <a href="/how-to-make-pet-beds-in-minecraft.html"><i>how to make pet beds in minecraft &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Footer CSS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+	});
+</script>
+<!-- Histats.com  START  (aync) viu.tw-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4373060,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4373060&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->            <script type="text/javascript">
+        window.onload = function() {
+            var v_images = document.getElementsByClassName('ads-img');
+            for(var i = 0; i < v_images.length; i++) {
+                var v_img = v_images[i];
+                v_img.onclick = function() {
+                    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+                }
+            }
+        }
+    </script>
+        <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>

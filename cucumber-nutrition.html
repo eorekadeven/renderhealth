@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Cucumber Nutrition
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "James"
+  },
+  "headline": "Cucumber Nutrition",
+  "datePublished": "2021-03-26",
+  "image": "https://i.pinimg.com/originals/5f/e5/97/5fe59765c2c79197a2642ef6afed07ed.png",
+  "publisher": {
+    "@type": "Organization",
+    "name": "HealthyBay",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=cucumber+nutrition",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code --></head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Cucumber Nutrition
+            </a>
+        </h1>
+        <p>
+                            Best Wallpaper Ideas website. Search anything about Wallpaper Ideas in this website.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Cucumber Nutrition</strong>. Richest in Vitamin C. Cucumber With Peel Raw 16 calories in 1 cup Where do the calories come from.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/originals/b8/14/be/b814be21fa25d29a956d6f9fe2b6aab9.jpg" alt="Cucumberinfo Cucumber Health Benefits Cucumber Benefits Health Benefits" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReV1zboFRKQ00akzJx2ckMghE-ZX_YOjZbL12NCspOuf76RwJyaIjuejSvi62BfMTHdYs';">
+        <figcaption>Cucumberinfo Cucumber Health Benefits Cucumber Benefits Health Benefits from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        15 Calories15 Net. This means cucumber nutrition offers valuable vitamins and minerals yet is super low in calories with only about 16 calories per cup. It is also a good source of Vitamin A Pantothenic Acid Magnesium Phosphorus and Manganese and a very good source of Vitamin C Vitamin K and Potassium.
+    </p>
+    <h3>Cucumber With Peel Raw 16 calories in 1 cup Where do the calories come from.</h3>
+    <p>In a 100-gram 3 12 -ounce serving raw cucumber with peel is 95 water provides 67 kilojoules 16 kilocalories of food energy and supplies low content of essential nutrients as it is notable only for vitamin K at 16 of the Daily Value table. 492020 Cucumbers are one of the vegetables with the highest water content. 822021 Cucumbers contain vitamin K fiber and other essential nutrients. Some of the nutrients included in cucumbers are vitamin K molybdenum pantothenic acid potassium copper vitamin C manganese magnesium biotin phosphorus and vitamin B1.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cucumber Nutrition Facts Fill The Gaps In Your Nutrition Iherb Iherbcode Healthcare Bodybuilding Fi Nutrition Facts Cucumber Nutrition Facts Nutrition" src="https://i.pinimg.com/originals/77/20/f5/7720f597aed9ea85711c994e2b8df353.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmDde6TQE6sorpclth5kvNTzMNP5lOtMzvDQnMilqZ6DaMftmuTd0CGACQ--X06dVguAM';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Cucumber With Peel Raw 16 calories in 1 cup Where do the calories come from.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cucumber Nutrition Facts Cucumber Nutrition Facts Cucumber Nutrition Nutrition" src="https://i.pinimg.com/474x/60/73/89/6073894487df831b782b18e458af3661.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN8gCHGTWdIMVNob7sLypxzzfpWHI9s5nY00LCmVFYn9J8v1-P0MlLR0sTkyOQ3l0Usd0';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>It is also a good source of Vitamin A Pantothenic Acid Magnesium Phosphorus and Manganese and a very good source of Vitamin C Vitamin K and Potassium.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cucumberinfo Cucumber Health Benefits Cucumber Benefits Health Benefits" src="https://i.pinimg.com/originals/b8/14/be/b814be21fa25d29a956d6f9fe2b6aab9.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReV1zboFRKQ00akzJx2ckMghE-ZX_YOjZbL12NCspOuf76RwJyaIjuejSvi62BfMTHdYs';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Richest in Vitamin C.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="16 Health Benefits Of Cucumber History Facts Recipes Side Effects Etc Cucumber Health Benefits Cucumber Nutrition Cucumber Benefits" src="https://i.pinimg.com/originals/da/dd/bd/daddbdccd362e395b3606934e8f01c9c.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoAPmWXuY6cZRJNcKO8yfSntm1a01djSj_YezRitaFsrfy8XWvpRAeSRwcY77z7LzLLEg';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Total Carbohydrates 73g 4 Dietary Fiber 1g Sugars 34g.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin On Healthy Eating" src="https://i.pinimg.com/originals/2e/ce/f9/2ecef90a12ef23a3b0bf7cd125ed1ef9.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS5e6fcWQxRVvwzjflJS5eeZdHFOpwWGwG8yrF3nxhChIybJ1bp7qTGmV92n8tdUJFjHg';" />
+        <small>Source: nl.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>3122020 Cucumber nutrition 100 grams.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cucumber Nutrition Facts Calories Carbs And Health Benefits Cucumber Nutrition Facts Nutrition Facts Cucumber Calories" src="https://i.pinimg.com/originals/5f/e5/97/5fe59765c2c79197a2642ef6afed07ed.png" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaLVrNBxE7QE-3KUVPPhc6pVnA-3Jj5reSMZ5AnMH5O_Wub-DNfv1qxoK9yqw6bnG3uNs';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Health Practitioner Nutritionist and certified Macrobiotic Health Coach Shilpa Arora says Cucumber is packed with nutrients like.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Benefits Of Cucumbers Cucumber Health Benefits Cucumber Benefits Health" src="https://i.pinimg.com/originals/0f/18/08/0f1808d45862471f4b2e98c23e1edb0e.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxNoteJFdXX2H2W6TgCGlbR9lePsnVF_z5j_cCnD6tioTmE6vvKXwdy7YRSE6H-IjQvs';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Cucumbers keep you mega-hydrated.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Cucumber Nutritional Facts Nutrition Facts Cucumber Health Benefits Nutrition" src="https://i.pinimg.com/736x/28/5a/de/285ade984cdf5ab60f8a6687e99e1461.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqEY82iN-7GxzwoaFFxlIlux45tzCkbYvhncvjgiJOD7itJOo1EaOr8uxad2poMmIFmHg';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Cucumber raw peeled contains 10 calories per 100 g serving.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="This Is An Infographic Of Raw Cucumber Nutrition Facts Without Any Added Ingredients Salt Or Oil Cucumber Nutrition Facts Nutrition Facts Food Nutrition Facts" src="https://i.pinimg.com/originals/50/83/da/5083dab9ffdcfb303998a636cd25718c.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv59xXzNE96HZ90UqbQ4IjLnNMzLwdV9fYQi2zOMi7vu-Yfp8Dybv9t9y7f1EjV4PeOWg';" />
+        <small>Source: www.pinterest.com</small>
+                        <center>
+                <button class="btn btn-sm btn-success ads-img">Check Details</button>
+            </center>
+                    <p>Some of the nutrients included in cucumbers are vitamin K molybdenum pantothenic acid potassium copper vitamin C manganese magnesium biotin phosphorus and vitamin B1.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/what-size-crate-do-i-need-for-a-bernese-mountain-dog.html"><i>&larr; what size crate do i need for a bernese mountain dog</i></a>
+                                                                    
+                                        <a href="/what-size-collar-should-i-get-for-my-lab-puppy.html"><i>what size collar should i get for my lab puppy &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <!-- Footer CSS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+	  $('body').addClass('xepo_ads');
+	});
+
+	$(document).on('click','.xepo_ads',function(e)
+	{
+	    $(this).removeClass('xepo_ads');
+
+	    //ubah google dengan ads direct link
+	    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+	});
+</script>
+<!-- Histats.com  START  (aync) viu.tw-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4373060,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4373060&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->            <script type="text/javascript">
+        window.onload = function() {
+            var v_images = document.getElementsByClassName('ads-img');
+            for(var i = 0; i < v_images.length; i++) {
+                var v_img = v_images[i];
+                v_img.onclick = function() {
+                    window.open('https://2e8dgn8n0e0l.com/t6f1z508?key=c0781ad6b5c3eeff525d19b88c213b8f', '_blank');
+                }
+            }
+        }
+    </script>
+        <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>
